@@ -2,8 +2,9 @@
    overflow-x: hidden;
  }
  body {
+   text-align: center;
    font-family: "Raleway", Helvetica, Arial, sans-serif;
-   font color:#262f39;
+   font color: #262f39;
  }
  h1, h2, h3 {
    text-align: center;
@@ -13,56 +14,100 @@
    font-size: 3em; /*48px/16=3em*/
    font-weight: bold;
    margin-bottom: 5px;
-   font color:d15a14;
- }
-  h2 {
+   }
+ h2 {
    font-size:2.25em;  /*36px/16=2.25em*/
    font-weight: bold;
    margin-bottom: 5px;
-   font color:d15a14;
- }
-  h3 {
+  }
+ h3 {
    font-size:1.5em;  /*24px/16=1.5em*/
    font-weight: bold;
    margin-bottom: 5px;
-   font color:d15a14;
  }
- p class="text"{
+p {
    text-align: center;
-   font-size:18px;
+   font-size:1.125em;  /*18px/16=1.125em*/
    line-height: 19px;
    font-weight: 300;
- }
-  p class="header" {
-   font-size:14px;
-   font-weight: 700;
- }
-   p class="emphasis" {
-   font-size:16px;
-   font-weight: 700;
- }
-   p class="biline" {
-   font-size:14px;
-   font-weight: 300;
- }
-   p class="refname" {
-   font-style: italic;
-   font-size:16px;
-   font-weight: 300;
- }
-   p class="refquote" {
-   font-style: italic;
-   font-size:18px;
- }
-    p class="postdate" {
-   font-style: italic;
-   font-size:10px;
- } 
-   p class="post" {
-     font-size:14px;
+}
+/* SECTION CLASS DESCRIPTIONS */
+.containerhero {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+.services {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+.projects {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+/* DIV definitions??? */
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+.nav {
+	width: 96%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	margin: 0 2% 20px;
+}
 
-   p class="more" {
-   font-style: italic;
-   font-size:14px;
-   font-color:0932e3;
+.logo {
+	width: 96%;
+	float: right
+	position: relative;
+	min-height: 1px;
+	margin: 0 2% 20px;
+}
+/* CONTAINER HERO */
+
+.containerhero {
+	background: url("../images/waves.png") top center no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 4em 0;
+}
+.containerhero h1,
+.containerhero h3 {
+	color: #d15a14;
+}
+.containerhero p {
+	font-size: 1.125em;  /*18px/16=1.125em*/
+	font-style: 800;
+	color: #262f39;
+}
+
+/* media queries */
+}
+@media (min-width: 768px) { 
+    .container {
+        width: 750px
+    }
+}
+@media (min-width: 992px) { 
+    .container {
+        width: 970px
+    }
+}
+@media (min-width: 1200px) { 
+    .container {
+        width: 1170px
+    }
 }
