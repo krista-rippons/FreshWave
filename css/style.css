@@ -32,53 +32,8 @@ p {
    line-height: 19px;
    font-weight: 300;
 }
-/* SECTION CLASS DESCRIPTIONS */
-.containerhero {
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	position: relative;
-}
-.services {
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	position: relative;
-}
-.projects {
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	position: relative;
-}
-/* DIV definitions??? */
-.container {
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	position: relative;
-}
-.nav {
-	width: 96%;
-	float: left;
-	position: relative;
-	min-height: 1px;
-	margin: 0 2% 20px;
-}
 
-.logo {
-	width: 96%;
-	float: right
-	position: relative;
-	min-height: 1px;
-	margin: 0 2% 20px;
-}
 /* CONTAINER HERO */
-
 .containerhero {
 	background: url("../images/waves.png") top center no-repeat;
 	background-size: cover;
@@ -100,7 +55,7 @@ p {
 	color: #d15a14;
 }
 .blog h2{
-	color: #d15a14;
+	color: #262f39;
 }
 
 /* media queries */
@@ -120,3 +75,48 @@ p {
         width: 1170px
     }
 }
+
+
+/* SECTION CLASS DESCRIPTIONS 
+.containerhero {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+.services {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+.projects {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+.nav {
+	width: 96%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	margin: 0 2% 20px;
+}
+
+.logo {
+	width: 96%;
+	float: right
+	position: relative;
+	min-height: 1px;
+	margin: 0 2% 20px; */
