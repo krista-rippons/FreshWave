@@ -85,14 +85,22 @@ p {
 	text-align: center;
 	padding: 4em 0;
 }
-.containerhero h1,
-.containerhero h3 {
+.containerhero h1, h3 {
 	color: #d15a14;
 }
 .containerhero p {
 	font-size: 1.125em;  /*18px/16=1.125em*/
 	font-style: 800;
 	color: #262f39;
+}
+.linguist h1, h3 {
+	color: #d15a14;
+}
+.projects h1, h3 {
+	color: #d15a14;
+}
+.blog h1, h3 {
+	color: #d15a14;
 }
 
 /* media queries */
