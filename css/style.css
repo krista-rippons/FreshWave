@@ -31,3 +31,36 @@
    line-height: 19px;
    font-weight: 300;
  }
+  p class="header"{
+   font-size:14px;
+   font-weight: 700;
+ }
+   p class="emphasis"{
+   font-size:16px;
+   font-weight: 700;
+ }
+   p class="biline"{
+   font-size:14px;
+   font-weight: 300;
+ }
+   p class="refname"{
+   font-style: italic;
+   font-size:16px;
+   font-weight: 300;
+ }
+   p class="refquote"{
+   font-style: italic;
+   font-size:18px;
+ }
+    p class="postdate"{
+   font-style: italic;
+   font-size:10px;
+ } 
+   p class="post"{
+     font-size:14px;
+
+   p class="more"{
+   font-style: italic;
+   font-size:14px;
+   font-color:0932e3;
+}
