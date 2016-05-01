@@ -3,29 +3,29 @@
  }
  body {
    font-family: "Raleway", Helvetica, Arial, sans-serif;
-   color:#262f39;
+   font color:#262f39;
  }
  h1, h2, h3 {
    text-align: center;
    font-family: "Raleway", Helvetica, Arial, sans-serif;
  }
  h1 {
-   font-size:48px;
+   font-size: 3em; /*48px/16=3em*/
    font-weight: bold;
    margin-bottom: 5px;
-   color:d15a14;
+   font color:d15a14;
  }
   h2 {
-   font-size:36px;
+   font-size:2.25em;  /*36px/16=2.25em*/
    font-weight: bold;
    margin-bottom: 5px;
-   color:d15a14;
+   font color:d15a14;
  }
   h3 {
-   font-size:24px;
+   font-size:1.5em;  /*24px/16=1.5em*/
    font-weight: bold;
    margin-bottom: 5px;
-   color:d15a14;
+   font color:d15a14;
  }
  p class="text"{
    text-align: center;
