@@ -82,10 +82,9 @@ header nav ul > li {
 	list-style-type: none;
 	display: inline-block;
 	margin: 0 15px;
-	color: #fff;
 }
 header nav ul > li > a {
-	color: #262f39;
+	color: #ffffff;
 	text-decoration: none;
 }
 
