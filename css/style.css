@@ -63,6 +63,35 @@ p {
 	margin: 0 2% 20px;
 }
 
+/*header*/
+header {
+	color: #262f39;
+}
+
+/*added to adjust size of blocbox logo*/
+
+header .logo img {
+	width: 150px;
+}
+header nav {
+	padding: 1em 0;
+}
+header nav ul {
+	display: inline;
+	text-align: left;
+	float: left;
+	margin: 0;
+}
+header nav ul > li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 15px;
+}
+header nav ul > li > a {
+	color: #262f39;
+	text-decoration: none;
+}
+
 /* CONTAINERS */
 
 header .container {
