@@ -46,8 +46,6 @@ header .container {
 }
 .containerhero {
 	background: url("../images/waves.png") top center no-repeat;
-	background: url("../images/Ellipse 3.png");
-	background: url("../images/Ellipse 3 copy.png");
 	background-size: cover;
 	text-align: center;
 	padding: 4em 0;
@@ -60,10 +58,22 @@ header .container {
 	font-style: 800;
 	color: #262f39;
 }
+/* services styling */
+.services {
+	background: url("../images/Ellipse 3.png");
+	background: url("../images/Ellipse 3 copy.png");
+}
+.services p.servtext {
+	font-size: 1.5em;   /*24px/16=1.5em*/
+}
+
 
 /* linguist styling */
 .linguist h2 {
 	color: #d15a14;
+}
+.linquist p.post {
+	font-size: .875em;   /*14px/16=.875em*/
 }
 
 /* projects styling */
