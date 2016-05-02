@@ -172,7 +172,7 @@ header .container {
 .contact p.bold {
 	font-size: 1em;   /*16px/16=1em*/
 }
-body .logo img {
+.contact .logo img {
 	width: 700px;
 	float: center;
 }
