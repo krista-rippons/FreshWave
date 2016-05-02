@@ -170,6 +170,12 @@ header .container {
 }
 
 /* footer styling */
+.contact{
+	background color: 0c4573;
+	background-size: cover;
+	text-align: center;
+	padding: 4em 0;
+}
 .contact h2 {
 	color: #ffffff;
 }
@@ -184,6 +190,11 @@ header .container {
 	width: 700px;
 	float: center;
 }
+
+
+
+
+
 /* media queries */
 }
 @media (min-width: 768px) { 
