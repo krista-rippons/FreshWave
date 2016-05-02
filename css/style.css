@@ -91,6 +91,11 @@ header .container {
 	color: #0932e3;
 }
 
+/* footer styling */
+.contact p.bold {
+	font-size: 1em;   /*16px/16=1em*/
+}
+
 /* media queries */
 }
 @media (min-width: 768px) { 
