@@ -65,7 +65,7 @@ p {
 
 /*header*/
 header {
-	color: #FFFFFF;
+	color: #FFF;
 }
 header .logo img {
 	width: 500px;
@@ -170,6 +170,12 @@ header .container {
 }
 
 /* footer styling */
+.contact h2 {
+	color: #ffffff;
+}
+.contact p {
+	color: #ffffff;
+}
 .contact p.bold {
 	font-size: 1em;   /*16px/16=1em*/
 }
