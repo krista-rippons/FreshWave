@@ -67,6 +67,7 @@ p {
 header .logo img {
 	width: 500px;
 	float: right;
+	float: top;
 	margin: 0;
 }
 header nav {
