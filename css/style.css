@@ -60,11 +60,13 @@ header .container {
 	font-style: 800;
 	color: #262f39;
 }
+
+/* linguist styling */
 .linguist h2 {
 	color: #d15a14;
 }
 
-
+/* projects styling */
 .projects h2 {
 	color: #d15a14;
 }
@@ -78,14 +80,14 @@ header .container {
 }
 .blog p.postdate {
 	font-style: italic;
-	font-size: 10px;
+	font-size: .625em;   /*10px/16=.625em*/
 }
 .blog p.post {
-	font-size: 14px;
+	font-size: .875em;   /*14px/16=.875em*/
 }
 .blog p.more {
-	font-size: 14px;
-	ont-style: italic;
+	font-size: .875em;   /*14px/16=.875em*/
+	font-style: italic;
 	color: #0932e3;
 }
 
