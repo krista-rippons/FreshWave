@@ -65,11 +65,12 @@ p {
 
 /*header*/
 header {
-	color: #262f39;
+	color: #FFFFFF;
 }
 header .logo img {
 	width: 500px;
 	float: right;
+	margin: 0;
 }
 header nav {
 	padding: 1em 0;
@@ -172,6 +173,7 @@ header .container {
 .contact p.bold {
 	font-size: 1em;   /*16px/16=1em*/
 }
+/* NOT RIGHT YET*/
 .contact .logo img {
 	width: 700px;
 	float: center;
