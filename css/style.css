@@ -64,9 +64,6 @@ p {
 }
 
 /*header*/
-header {
-	color: #FFF;
-}
 header .logo img {
 	width: 500px;
 	float: right;
@@ -85,6 +82,7 @@ header nav ul > li {
 	list-style-type: none;
 	display: inline-block;
 	margin: 0 15px;
+	color: #fff;
 }
 header nav ul > li > a {
 	color: #262f39;
@@ -170,8 +168,8 @@ header .container {
 }
 
 /* footer styling */
-.contact{
-	background color: 0c4573;
+.contact {
+	background color: 0c4573; top;
 	background-size: cover;
 	text-align: center;
 	padding: 4em 0;
@@ -190,10 +188,6 @@ header .container {
 	width: 700px;
 	float: center;
 }
-
-
-
-
 
 /* media queries */
 }
