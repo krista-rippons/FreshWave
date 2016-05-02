@@ -67,11 +67,9 @@ p {
 header {
 	color: #262f39;
 }
-
-/*added to adjust size of blocbox logo*/
-
 header .logo img {
-	width: 150px;
+	width: 500px;
+	float: right;
 }
 header nav {
 	padding: 1em 0;
