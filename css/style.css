@@ -33,6 +33,36 @@ p {
    font-weight: 300;
 }
 
+/* GRID */
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+
+.container:before,
+.container:after {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.one-half,
+.one-third,
+.one-fourth {
+	width: 96%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	margin: 0 2% 20px;
+}
+
 /* CONTAINERS */
 
 header .container {
@@ -59,16 +89,18 @@ header .container {
 	color: #262f39;
 }
 /* services styling */
-.services {
-	background: url("../images/Ellipse 3.png");
-	background: url("../images/Ellipse 3 copy.png");
-}
 .services p.servtext {
 	font-size: 1.5em;   /*24px/16=1.5em*/
 }
 
 
 /* linguist styling */
+.linguist {
+	background: #a7dde4
+	background-size: cover;
+	text-align: center;
+	padding: 4em 0;
+}
 .linguist h2 {
 	color: #d15a14;
 }
