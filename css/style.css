@@ -80,6 +80,14 @@ header .container {
 .projects h2 {
 	color: #d15a14;
 }
+.projects p.chgfont {
+	font-size: 1em;   /*16px/16=1em*/
+	font-style: italic;
+}
+.projects p.chgfont2 {
+	font-size: 1.125em;   /*18px/16=1.125em*/
+	font-style: italic;
+}
 
 /* blog styling */
 .blog h2 {
