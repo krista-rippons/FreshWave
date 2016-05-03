@@ -24,20 +24,26 @@
 <!-- Header/Nav -->
   <header>
     <nav class="container">
-      <div class="one-half">
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Bio</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Content</a></li>
-        </ul>
-      </div>
-      <div class="one-half">
-        <a href="index.html" class="logo"><img src="images/FreshWaveLogo.png" alt="logo" alt="Fresh Wave Creative"/></a>
-      </div>
+      <div class="row">
+        <div class="col-xs-12 col-lg-6">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Bio</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Content</a></li>
+          </ul>
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-xs-12 col-lg-6">
+          <a href="index.html" class="logo"><img src="images/FreshWaveLogo.png" alt="logo" alt="Fresh Wave Creative"/></a>
+        </div>
+      </div>    
     </nav>
+  
   </header>
+
     <section class="containerhero">
       <h1>Fresh Wave Creative</h1>
       <h3>Boutique Firm</h3>
@@ -48,19 +54,80 @@
   <main role="main">
 
 <!-- Services -->   
-    <section class="services">
-      <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          <p class="servtext">engaging,<br/><br/>exceptional<br/><br/>copywriting</p>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-           <p class="servtext">authoritative<br/><br/>content to<br/><br/>showcase<br/><br/>your<br/><br/>expertise</p>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-           <p class="servtext">branding<br/><br/>with a<br/><br/>lasting<br/><br/>impact</p>
+  
+
+<!-- Morgan help with service circles -->
+<section class="services">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <div class="service-wrapper-engage">
+        <div class="service-center">
+          <div class="service-text">
+            <p class="servtext">engaging,<br/><br/>exceptional<br/><br/>copywriting</p>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="service-wrapper-content">
+        <div class="service-center">
+          <div class="service-text">
+            <p class="servtext">authoritative<br/><br/>content to<br/><br/>showcase<br/><br/>your<br/><br/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="service-wrapper-branding">
+        <div class="service-center">
+          <div class="service-text">
+            <p class="servtext">branding<br/><br/>with a<br/><br/>lasting<br/><br/>impact</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .services {
+    max-width: 768px;
+    padding: 20px;
+  }
+  .service-wrapper-engage {
+    position: relative;
+    padding-bottom: 100%;
+    border: 6px solid #d15a14;
+    border-radius: 50%;
+  }
+    .service-wrapper-content {
+    position: relative;
+    padding-bottom: 100%;
+    border: 8px solid #0c4573;
+    border-radius: 50%;
+  }
+    .service-wrapper-branding {
+    position: relative;
+    padding-bottom: 100%;
+    border: 8px solid #69c6cd;
+    border-radius: 50%;
+  }
+  .service-center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .service-text {
+    display: table-cell;
+    vertical-align: middle;
+  }
+</style>
 
 <!-- Linguist -->
     <section class="linguist">
@@ -83,37 +150,44 @@
     </section>
 
 <!-- Blog -->
-    <nav class="blog">
+  <section class="blog">
       <h2>Visit Our Blog</h2>
       <p><strong>Take a look at issues that intrigue us and impact our clients.</strong></p>
-      <div class="one-half">
-        <ul>
-          <li><img src="images/blogbullseye.png" alt="BULLSEYE"/></a></li>
-          <li><h3>Content Marketing, What is it?</h3>
-          <li><p class="postdate">Posted on April 10th 2016 by Sara</p>
-          <li><p class="post">Approach focused on creating and distributing valuable...</p>
-          <li><p class="more">Read More</p>
-        <ul>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+          <ul><img src="images/blogbullseye.png" alt="BULLSEYE"/></a></li>
+          <ul><h3>Content Marketing, What is it?</h3>
+          <ul><p class="postdate">Posted on April 10th 2016 by Sara</p>
+          <ul><p class="post">Approach focused on creating and distributing valuable...</p>
+          <ul><p class="more">Read More</p>
+          </ul>
       </div>
-      <div class="one-half">
-        <ul>
-          <li><img src="images/blogeye.png" alt="EYE"/></a></li>
-          <li><h3>A Vision of the Future</h3></li>
-          <li><p class="postdate">Posted on March 10th 2016 by Sara</p></li>
-          <li><p class="post">Announcing an exciting new partnership between...</p></li>
-          <li><p class="more">Read More</p></li>
-        </ul>
-      </div>      
-    </nav>
+      <div class="col-xs-12 col-sm-6">
+          <ul><img src="images/blogeye.png" alt="EYE"/></a></li>
+          <ul><h3>A Vision of the Future</h3></li>
+          <ul><p class="postdate">Posted on March 10th 2016 by Sara</p></li>
+          <ul><p class="post">Announcing an exciting new partnership between...</p></li>
+          <ul><p class="more">Read More</p></li>
+          </ul>
+      </div>
+    </div>
+  </section> 
 
 <!-- Contact/Footer -->
-    <section class="contact">
-      <h2>Contact</h2>
+  <div class="contact">
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Contact</h2>
         <p>Sara Levine Visser</p>
         <p class="bold"><strong>denvervisser@gmail.com</strong></p>
         <p>© 2016 Fresh Wave Creative - All Rights Reserved</p>
         <img src="images/FreshWaveLogo.png" alt="logo"/>
-    </section>
+      </div>
+    </div>  
+  </div>
+
   </main>
 </body>
 </html>
