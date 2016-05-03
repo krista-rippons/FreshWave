@@ -92,6 +92,12 @@ header nav ul > li > a {
 /* CONTAINERS */
 
 header .container {
+	background color: 0c4573;
+	background-size: cover;
+	text-align: center;
+	padding: 4em 0;
+}
+header .container {
 	width: 96%;
 	float: left;
 	margin-right: auto;
