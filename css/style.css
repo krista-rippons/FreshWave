@@ -65,9 +65,8 @@ p {
 
 /*header*/
 header .logo img {
-	width: 500px;
+	width: 400px;
 	float: right;
-	float: top;
 	margin: 0;
 }
 header nav {
@@ -92,9 +91,8 @@ header nav ul > li > a {
 /* CONTAINERS */
 
 header .container {
-	background color: 0c4573;
+	background: #0c4573;
 	background-size: cover;
-	text-align: center;
 	padding: 4em 0;
 }
 header .container {
@@ -118,11 +116,13 @@ header .container {
 }
 .containerhero h1, h3 {
 	color: #d15a14;
+	text-shadow: 0 0 20px white, 0 0 40px white, 0 0 60px white;
 }
 .containerhero p {
 	font-size: 1.125em;  /*18px/16=1.125em*/
 	font-style: 800;
 	color: #262f39;
+	text-shadow: 0 0 20px white, 0 0 40px white, 0 0 60px white;
 }
 /* services styling */
 
@@ -185,11 +185,11 @@ header .container {
 }
 
 /* footer styling */
-.contact {
-	background color: #0c4573;
+.container .contact {
+	background: #0c4573;
 	background-size: cover;
 	text-align: center;
-	padding: 4em 0;
+	padding: 0em 0;
 }
 .contact h2 {
 	color: #ffffff;
@@ -200,11 +200,14 @@ header .container {
 .contact p.bold {
 	font-size: 1em;   /*16px/16=1em*/
 }
-/* NOT RIGHT YET*/
-.contact .FreshWaveLogo img {
-	width: 500px;
+.contact p.small {
+	font-size: .625em;   /*10px/16=.625em*/
+}
+.contact .logo-bottom img {
+	width: 600px;
 	float: center;
 }
+
 
 /* media queries */
 }
