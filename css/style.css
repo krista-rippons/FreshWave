@@ -128,8 +128,8 @@ header .container {
 
 .services p.servtext {
 	font-size: 1.5em;   /*24px/16=1.5em*/
+	border: 5px solid orange;
 }
-
 
 /* linguist styling */
 .linguist {

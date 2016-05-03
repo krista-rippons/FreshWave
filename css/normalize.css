@@ -425,5 +425,13 @@ td,
 th {
   padding: 0;
 }
+/*includes padding within % of column width*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 
