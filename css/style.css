@@ -31,15 +31,16 @@ p {
    font-size: 1.125em;  /*18px/16=1.125em*/
    line-height: 19px;
    font-weight: 300;
+	line-height: 25px;
+
 }
 
 /* GRID */
 
 .container {
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
 	position: relative;
 }
 
@@ -86,6 +87,7 @@ header nav ul > li {
 header nav ul > li > a {
 	color: #ffffff;
 	text-decoration: none;
+	align: bottom;
 }
 
 /* CONTAINERS */
@@ -93,15 +95,15 @@ header nav ul > li > a {
 header .container {
 	background: #0c4573;
 	background-size: cover;
-	padding: 4em 0;
+	padding: 1em 0;
 }
 header .container {
-	width: 96%;
+	width: 100%;
 	float: left;
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
 	position: relative;
 }
 .containerhero {
@@ -120,16 +122,15 @@ header .container {
 }
 .containerhero p {
 	font-size: 1.125em;  /*18px/16=1.125em*/
-	font-style: 800;
+	line-height: 200%
 	color: #262f39;
 	text-shadow: 0 0 20px white, 0 0 40px white, 0 0 60px white;
 }
 /* services styling */
-
-.services p.servtext {
+.servtext p {
 	font-size: 1.5em;   /*24px/16=1.5em*/
-	border: 5px solid orange;
 }
+
 
 /* linguist styling */
 .linguist {
@@ -170,6 +171,8 @@ header .container {
 }
 .blog h3{
 	color: #262f39;
+	text-shadow: 0 0 0px , 0 0 0px , 0 0 0px ;
+	font-weight: normal;
 }
 .blog p.postdate {
 	font-style: italic;
@@ -186,10 +189,11 @@ header .container {
 
 /* footer styling */
 .container .contact {
+	width: 100%;
 	background: #0c4573;
 	background-size: cover;
 	text-align: center;
-	padding: 0em 0;
+	padding: 1em 0;
 }
 .contact h2 {
 	color: #ffffff;

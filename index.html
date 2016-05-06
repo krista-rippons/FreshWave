@@ -48,7 +48,7 @@
       <h1>Fresh Wave Creative</h1>
       <h3>Boutique Firm</h3>
       <h3>Great Marketing Content</h3>
-        <p>How can your company stand out from<br/>the crowd as everyone shouts,<br/>“Pick us!  We are the best at what we do!”?<br/><br/>The answer is simple:<br/>By producing content that is relevant to<br/>the needs and desires of the consumers.<br/><br/>By putting their problems at the forefront of<br/>your marketing efforts, and creating content that<br/>aims to answer their questions honestly with<br/>as little trace of bias as possible.<br/><br/>By treating them the way you would want to be<br/>treated yourself if you were looking for answers.</p>
+        <p><strong>How can your company stand out from<br/>the crowd as everyone shouts,<br/>“Pick us!  We are the best at what we do!”?<br/><br/>The answer is simple:<br/>By producing content that is relevant to<br/>the needs and desires of the consumers.<br/><br/>By putting their problems at the forefront of<br/>your marketing efforts, and creating content that<br/>aims to answer their questions honestly with<br/>as little trace of bias as possible.<br/><br/>By treating them the way you would want to be<br/>treated yourself if you were looking for answers.</strong></p>
     </section>
 
   <main role="main">
@@ -56,7 +56,7 @@
 <!-- Services -->   
   
 
-<!-- Morgan help with service circles -->
+<!-- Morgan help with service circles
 <section class="services">
   <div class="row">
     <div class="col-xs-12 col-sm-4">
@@ -126,6 +126,92 @@
   .service-text {
     display: table-cell;
     vertical-align: middle;
+  }
+</style> -->
+
+<!-- Morgan help with service circles V2 -->
+
+<section class="services">
+  <div class="row"> <!-- Columns must always be inside a row -->
+    <div class="col-xs-12 col-sm-4"> <!-- Single-column on mobile, 3 columns on tablet and up -->
+      <div class="service-wrapper"> <!-- Limit the width of the circles on mobile so they're not HUGE when it's landscape -->
+        <div class="service orange"> <!-- Make height equal to width, and place a coloured border -->
+          <div class="service-text"> <!-- Place the text in the center of the circle -->
+            <p class="servtext">engaging,<br/><br/>exceptional<br/><br/>copywriting</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="service-wrapper">
+        <div class="service blue">
+          <div class="service-text">
+            <p class="servtext">authoritative<br/><br/>content to<br/><br/>showcase<br/><br/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="service-wrapper">
+        <div class="service green">
+          <div class="service-text">
+            <p class="servtext">branding<br/><br/>with a<br/><br/>lasting<br/><br/>impact</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .services {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+  .service-wrapper {
+    max-width: 250px;
+    margin: 20px auto;
+  }
+  .service {
+    position: relative;
+    padding-bottom: 100%;
+    border-radius: 50%;
+  }
+  .service.orange {
+    box-shadow: 0 0 0 5px #d15a14;
+  }
+  .service.blue {
+    box-shadow: 0 0 0 5px #0c4573;
+  }
+  .service.green {
+    box-shadow: 0 0 0 5px #69c6cd;
+  }
+  .service-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    text-align: center;
   }
 </style>
 
