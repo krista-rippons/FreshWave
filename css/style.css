@@ -14,25 +14,28 @@
  h1 {
    font-size: 3em; /*48px/16=3em*/
    font-weight: bold;
-   margin-bottom: 5px;
-   }
+   margin-top: 50px;
+   margin-bottom: 30px;
+   line-height: 50px;
+ }
  h2 {
    font-size: 2.25em;  /*36px/16=2.25em*/
    font-weight: bold;
-   margin-bottom: 5px;
-  }
+   margin-bottom: 50px;
+  	line-height: 2px;
+ }
  h3 {
    font-size: 1.5em;  /*24px/16=1.5em*/
    font-weight: bold;
-   margin-bottom: 5px;
+   margin-bottom: 30px;
+ 	line-height: 2px;
  }
 p {
    text-align: center;
-   font-size: 1.125em;  /*18px/16=1.125em*/
-   line-height: 19px;
+   font-size: 18px;  /*18px/16=1.125em*/
+   line-height: 1.4px;
    font-weight: 300;
-	line-height: 25px;
-
+   line-height: 25px;
 }
 
 /* GRID */
@@ -66,9 +69,9 @@ p {
 
 /*header*/
 header .logo img {
-	width: 400px;
 	float: right;
-	margin: 0;
+	width: 600px;
+	padding: 0px 100px 00px 0px;
 }
 header nav {
 	padding: 1em 0;
@@ -77,17 +80,15 @@ header nav ul {
 	display: inline;
 	text-align: left;
 	float: left;
-	margin: 0;
 }
 header nav ul > li {
 	list-style-type: none;
 	display: inline-block;
-	margin: 0 15px;
 }
 header nav ul > li > a {
 	color: #ffffff;
 	text-decoration: none;
-	align: bottom;
+	padding: 0px 50px 0px 25px;  /* top right bottom left--trying to align navigation with header logo */
 }
 
 /* CONTAINERS */
@@ -99,7 +100,6 @@ header .container {
 }
 header .container {
 	width: 100%;
-	float: left;
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 0px;
@@ -126,9 +126,11 @@ header .container {
 	color: #262f39;
 	text-shadow: 0 0 20px white, 0 0 40px white, 0 0 60px white;
 }
+
 /* services styling */
-.servtext p {
-	font-size: 1.5em;   /*24px/16=1.5em*/
+.service-text p {
+	font-size: 1.4em;   /*24px/16=1.5em*/
+	line-height: .8;
 }
 
 
@@ -142,9 +144,7 @@ header .container {
 .linguist h2 {
 	color: #d15a14;
 }
-.linquist p.post {
-	font-size: .875em;   /*14px/16=.875em*/
-}
+
 
 /* projects styling */
 .projects h2 {
@@ -160,6 +160,9 @@ header .container {
 }
 
 /* blog styling */
+.blogpost {
+	width: 100%;
+}
 .blog {
 	background: #69c6cd;
 	background-size: cover;
@@ -177,43 +180,60 @@ header .container {
 .blog p.postdate {
 	font-style: italic;
 	font-size: .625em;   /*10px/16=.625em*/
+	padding: 0px 0px 0px 0px;  /* top right bottom left*/
+	margin: 0px 0px 0px 0px;  /* top right bottom left*/
+	line-height: 10px;
 }
 .blog p.post {
 	font-size: .875em;   /*14px/16=.875em*/
+	padding: 0px 0px 0px 0px;  /* top right bottom left*/
+	margin: 0px 0px 0px 0px;  /* top right bottom left*/
+	line-height: 10px;
 }
 .blog p.more {
 	font-size: .875em;   /*14px/16=.875em*/
+	padding: 0px 0px 0px 0px;  /* top right bottom left*/
+	margin: 0px 0px 0px 0px;  /* top right bottom left*/
+	line-height: 10px;
 	font-style: italic;
 	color: #0932e3;
 }
+.blogpostsize {
+	width: 300px;
+	margin: 300px;
+}
 
 /* footer styling */
-.container .contact {
+.contact .container {
 	width: 100%;
 	background: #0c4573;
 	background-size: cover;
 	text-align: center;
-	padding: 1em 0;
 }
 .contact h2 {
 	color: #ffffff;
+	margin-top: 100px;
 }
 .contact p {
 	color: #ffffff;
+	margin-bottom: 2px;
 }
 .contact p.bold {
 	font-size: 1em;   /*16px/16=1em*/
+	font-style: bold;
 }
 .contact p.small {
 	font-size: .625em;   /*10px/16=.625em*/
 }
 .contact .logo-bottom img {
-	width: 600px;
+	width: 800px;
 	float: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 
-/* media queries */
+/* media queries NEEDED WITH BOOTSTRAP 12 COLUMN????
 }
 @media (min-width: 768px) { 
     .container {
@@ -230,7 +250,7 @@ header .container {
         width: 1170px
     }
 }
-
+*/
 
 /* SECTION CLASS DESCRIPTIONS 
 .containerhero {
