@@ -251,7 +251,7 @@ header .container {
 }
 
 
-/* media queries NEEDED WITH BOOTSTRAP 12 COLUMN????
+/* media queries */
 }
 @media (min-width: 768px) { 
     .container {
@@ -268,7 +268,7 @@ header .container {
         width: 1170px
     }
 }
-*/
+
 
 /* SECTION CLASS DESCRIPTIONS 
 .containerhero {
