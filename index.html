@@ -1,60 +1,48 @@
- <!DOCTYPE html>
- <html lang="en-us">
- <head>
-   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta charset="UTF-8">
-   <title>Fresh Wave Creative</title>
+<!DOCTYPE html>
+<html lang="en-us">
 
-<!-- Google Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900,1000,1100,1200,1300,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,300bold,400bold,600bold,700bold' rel='stylesheet' type='text/css'>
-
-
-<!-- Hero -->
-
-
-<!-- CSS -->
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/style.css">
-
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Fresh Wave Creative</title>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900,1000,1100,1200,1300,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,300bold,400bold,600bold,700bold' rel='stylesheet' type='text/css'>
+    <!-- Hero -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-<!-- Header/Nav -->
-  <header>
-    <nav class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Bio</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Content</a></li>
-          </ul>
-        </div>
-      </div> 
-      <div class="row">
-        <a href="index.html" class="logo"> <img src="images/FreshWaveLogo.png" alt="Fresh Wave Creative"/></a>
-      </div>
-    </nav>
-  
-  </header>
-
+    <!-- Header/Nav -->
+    <header>
+        <nav class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Bio</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Content</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <a href="index.html" class="logo"> <img src="images/FreshWaveLogo.png" alt="Fresh Wave Creative" /></a>
+                </div>
+        </nav>
+    </header>
     <section class="containerhero">
-      <h1>Fresh Wave Creative</h1>
-      <h3>Boutique Firm</h3>
-      <h3>Great Marketing Content</h3>
+        <h1>Fresh Wave Creative</h1>
+        <h3>Boutique Firm</h3>
+        <h3>Great Marketing Content</h3>
         <p><strong>How can your company stand out from<br/>the crowd as everyone shouts,<br/>“Pick us!  We are the best at what we do!”?<br/><br/>The answer is simple:<br/>By producing content that is relevant to<br/>the needs and desires of the consumers.<br/><br/>By putting their problems at the forefront of<br/>your marketing efforts, and creating content that<br/>aims to answer their questions honestly with<br/>as little trace of bias as possible.<br/><br/>By treating them the way you would want to be<br/>treated yourself if you were looking for answers.</strong></p>
     </section>
-
-  <main role="main">
-
-<!-- Services -->   
-  
-
-<!-- Morgan help with service circles
+    <main role="main">
+        <!-- Services -->
+        <!-- Morgan help with service circles
 <section class="services">
   <div class="row">
     <div class="col-xs-12 col-sm-4">
@@ -126,160 +114,211 @@
     vertical-align: middle;
   }
 </style> -->
-
-<!-- Morgan help with service circles V2 -->
-
-<section class="services">
-  <div class="row"> <!-- Columns must always be inside a row -->
-    <div class="col-xs-12 col-sm-4"> <!-- Single-column on mobile, 3 columns on tablet and up -->
-      <div class="service-wrapper"> <!-- Limit the width of the circles on mobile so they're not HUGE when it's landscape -->
-        <div class="service orange"> <!-- Make height equal to width, and place a coloured border -->
-          <div class="service-text"> <!-- Place the text in the center of the circle -->
-            <p class="servtext">engaging,<br/><br/>exceptional<br/><br/>copywriting</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <div class="service-wrapper">
-        <div class="service blue">
-          <div class="service-text">
-            <p class="servtext">authoritative<br/><br/>content to<br/><br/>showcase<br/><br/>your expertise</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <div class="service-wrapper">
-        <div class="service green">
-          <div class="service-text">
-            <p class="servtext">branding<br/><br/>with a<br/><br/>lasting<br/><br/>impact</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<style>
-  .services {
-    max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-  }
-  .service-wrapper {
-    max-width: 250px;
-    margin: 20px auto;
-  }
-  .service {
-    position: relative;
-    padding-bottom: 100%;
-    border-radius: 50%;
-  }
-  .service.orange {
-    box-shadow: 0 0 0 5px #d15a14;
-  }
-  .service.blue {
-    box-shadow: 0 0 0 5px #0c4573;
-  }
-  .service.green {
-    box-shadow: 0 0 0 5px #69c6cd;
-  }
-  .service-text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 20px;
-
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    justify-content: center;
-    text-align: center;
-  }
-</style>
-
-<!-- Linguist -->
-    <section class="linguist">
-      <div class="container">
-        <h2>Spirited Linguist</h2>
-          <p>Sara brings keen insight from experience in marketing, strategy, sales,<br/>management, team-building and business planning.  She is<br/>accomplished in seeing solutions and opportunities when faced with<br/>challenges.  A lover of words, she quickly identifies strategic vision and<br/>creates compelling content.<br/><br/>Let her help propel your business and inject inspiration!</p>
-          <img src="images/sara.png" alt="SARA"/></a>
-          <p><strong>Sara Levine Visser</strong></p>
-          <p class="post">Owner & Creative Director</p>
-      </div>
-    </section>
-
-<!-- Projects -->
-    <section class="projects">
-      <h2>Projects</h2>
-        <p>Nutrition Works is trying to build a different kind of company.<br/>We know everyone says that, but that doesn’t make it any less<br/>true.  Already a leading corporate wellness consulting partner,<br/>Nutrition Works wants to take the<br/>corporate wellness package to individual clients looking for<br/>the right nutritional balance in all aspects of life.<br/><br/>Fresh Wave Creative worked closely with Nutrition Works to<br/>provide a rebranded image and engaging collateral focused<br/>on this different market demographic.</p>
-        <img src="images/Rachel.png" alt="Rachel"/></a>
-        <p class="chgfont">Rachel Harber - Owner</p>
-        <p class="chgfont2">"Sara's focus and strategic vision helped me to quickly<br/>crystalize the new vision for Nutrition Works."</p>
-    </section>
-
-<!-- Blog -->
-  <div class="blog">
-    <div class="row">
-      <div class="col-xs-12">  
-        <h2>Visit Our Blog</h2>
-        <h3>Take a look at issues that intrigue us and impact our clients.</h3>
-      </div>
-    </div>  
-    <div class="blogpost"> 
-      <div container="blogpostsize">
-      <div class="row">
-        <div class="col-sm-6">
-          <ul><img src="images/blogbullseye.png" alt="BULLSEYE"/></a></ul>
-          <ul><h3>Content Marketing, What is it?</h3></ul>
-          <ul><p class="postdate">Posted on April 10th 2016 by Sara</p></ul>
-          <ul><p class="post">Approach focused on creating and distributing valuable...</p></ul>
-          <ul><p class="more">Read More</p></ul>
-        </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <ul><img src="images/blogeye.png" alt="EYE"/></a></ul>
-          <ul><h3>A Vision of the Future</h3></ul>
-          <ul><p class="postdate">Posted on March 10th 2016 by Sara</p></ul>
-          <ul><p class="post">Announcing an exciting new partnership between...</p></ul>
-          <ul><p class="more">Read More</p></ul>
-        </div>
-      </div>  
-    </div>    
-  </section> 
-
-<!-- Contact/Footer -->
- 
-    <section class="contact">
-  <nav class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h2>Contact</h2>
-          <p>Sara Levine Visser</p>
-          <p class="bold">denvervisser@gmail.com</p>
-          <p class="small">© 2016 Fresh Wave Creative - All Rights Reserved</p>
-          <a href="index.html" class="logo-bottom"><img src="images/FreshWaveLogo.png" alt="Fresh Wave Creative"/></a>
-        </div>
-      </div>  
-  </nav> 
-    </section>
- 
-  
-  </main>
+        <!-- Morgan help with service circles V2 -->
+        <section class="services">
+            <div class="row">
+                <!-- Columns must always be inside a row -->
+                <div class="col-xs-12 col-sm-4">
+                    <!-- Single-column on mobile, 3 columns on tablet and up -->
+                    <div class="service-wrapper">
+                        <!-- Limit the width of the circles on mobile so they're not HUGE when it's landscape -->
+                        <div class="service orange">
+                            <!-- Make height equal to width, and place a coloured border -->
+                            <div class="service-text">
+                                <!-- Place the text in the center of the circle -->
+                                <p class="servtext">engaging,
+                                    <br/>
+                                    <br/>exceptional
+                                    <br/>
+                                    <br/>copywriting</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="service-wrapper">
+                        <div class="service blue">
+                            <div class="service-text">
+                                <p class="servtext">authoritative
+                                    <br/>
+                                    <br/>content to
+                                    <br/>
+                                    <br/>showcase
+                                    <br/>
+                                    <br/>your expertise</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="service-wrapper">
+                        <div class="service green">
+                            <div class="service-text">
+                                <p class="servtext">branding
+                                    <br/>
+                                    <br/>with a
+                                    <br/>
+                                    <br/>lasting
+                                    <br/>
+                                    <br/>impact</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <style>
+        .services {
+            max-width: 768px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+        }
+        
+        .service-wrapper {
+            max-width: 250px;
+            margin: 20px auto;
+        }
+        
+        .service {
+            position: relative;
+            padding-bottom: 100%;
+            border-radius: 50%;
+        }
+        
+        .service.orange {
+            box-shadow: 0 0 0 5px #d15a14;
+        }
+        
+        .service.blue {
+            box-shadow: 0 0 0 5px #0c4573;
+        }
+        
+        .service.green {
+            box-shadow: 0 0 0 5px #69c6cd;
+        }
+        
+        .service-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 20px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -moz-align-items: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            justify-content: center;
+            text-align: center;
+        }
+        </style>
+        <!-- Linguist -->
+        <section class="linguist">
+            <div class="container">
+                <h2>Spirited Linguist</h2>
+                <p>Sara brings keen insight from experience in marketing, strategy, sales,
+                    <br/>management, team-building and business planning. She is
+                    <br/>accomplished in seeing solutions and opportunities when faced with
+                    <br/>challenges. A lover of words, she quickly identifies strategic vision and
+                    <br/>creates compelling content.
+                    <br/>
+                    <br/>Let her help propel your business and inject inspiration!</p>
+                <img src="images/sara.png" alt="SARA" /></a>
+                <p><strong>Sara Levine Visser</strong></p>
+                <p class="post">Owner & Creative Director</p>
+            </div>
+        </section>
+        <!-- Projects -->
+        <section class="projects">
+            <h2>Projects</h2>
+            <p>Nutrition Works is trying to build a different kind of company.
+                <br/>We know everyone says that, but that doesn’t make it any less
+                <br/>true. Already a leading corporate wellness consulting partner,
+                <br/>Nutrition Works wants to take the
+                <br/>corporate wellness package to individual clients looking for
+                <br/>the right nutritional balance in all aspects of life.
+                <br/>
+                <br/>Fresh Wave Creative worked closely with Nutrition Works to
+                <br/>provide a rebranded image and engaging collateral focused
+                <br/>on this different market demographic.</p>
+            <img src="images/Rachel.png" alt="Rachel" /></a>
+            <p class="chgfont">Rachel Harber - Owner</p>
+            <p class="chgfont2">"Sara's focus and strategic vision helped me to quickly
+                <br/>crystalize the new vision for Nutrition Works."</p>
+        </section>
+        <section class="otherprojects">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul>
+                        <li><img src="images/logo5.png" alt="Remax" /></a>
+                        </li>
+                        <li><img src="images/logo4.png" alt="Banko" /></a>
+                        </li>
+                        <li><img src="images/logo2.png" alt="Mayfair" /></a>
+                        </li>
+                        <li><img src="images/logo3.png" alt="Montessori" /></a>
+                        </li>
+                        <li><img src="images/logo1.png" alt="Teammates" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Blog -->
+        <section class="blog">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Visit Our Blog</h2>
+                    <h3>Take a look at issues that intrigue us and impact our clients.</h3>
+                </div>
+            </div>
+            <div class="blogpost">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="images/blogbullseye.png" alt="BULLSEYE" /></a>
+                            <h3>Content Marketing, What is it?</h3>
+                            <p class="postdate">Posted on April 10th 2016 by Sara</p>
+                            <p class="post">Approach focused on creating and distributing valuable...</p>
+                            <p class="more">Read More</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="images/blogeye.png" alt="EYE" /></a>
+                                <h3>A Vision of the Future</h3>
+                                <p class="postdate">Posted on March 10th 2016 by Sara</p>
+                                <p class="post">Announcing an exciting new partnership between...</p>
+                                <p class="more">Read More</p>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <!-- Contact/Footer -->
+        <section class="contact">
+            <nav class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>Contact</h2>
+                        <p>Sara Levine Visser</p>
+                        <p class="bold">denvervisser@gmail.com</p>
+                        <p class="small">© 2016 Fresh Wave Creative - All Rights Reserved</p>
+                        <a href="index.html" class="logo-bottom"><img src="images/FreshWaveLogo.png" alt="Fresh Wave Creative" /></a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </main>
 </body>
+
 </html>
