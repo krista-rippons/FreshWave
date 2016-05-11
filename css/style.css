@@ -151,6 +151,11 @@ header .container {
 .projects h2 {
 	color: #d15a14;
 }
+.projects h3 {
+	color: #262f39;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
 .projects p.chgfont {
 	font-size: 1em;   /*16px/16=1em*/
 	font-style: italic;
@@ -206,13 +211,14 @@ header .container {
 }
 
 /* other projects and images styling */
-.projects .otherprojects ul {
+.otherprojects ul {
 	display: inline;
 	align: center;
 }
-.projects .otherprojects ul > li {
+.otherprojects ul > li {
 	list-style-type: none;
 	display: inline-block;
+	margin: 25px 55px 50px 0px;  /* top right bottom left*/
 }
 
 /* footer styling */
