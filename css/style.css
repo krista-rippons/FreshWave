@@ -5,6 +5,7 @@
    text-align: center;
    font-family: "Raleway", Helvetica, Arial, sans-serif;
    font color: #262f39;
+   line-height:  1.4;
  }
  h1, h2, h3 {
    text-align: center;
@@ -16,27 +17,25 @@
    font-weight: bold;
    margin-top: 50px;
    margin-bottom: 30px;
-   line-height: 50px;
+   line-height: 1.1;
  }
  h2 {
    font-size: 2.25em;  /*36px/16=2.25em*/
    font-weight: bold;
    margin-top: 40px;
    margin-bottom: 30px;
-  	line-height: 2px;
+   line-height: 1.1;
  }
  h3 {
    font-size: 1.5em;  /*24px/16=1.5em*/
    font-weight: bold;
    margin-bottom: 30px;
- 	line-height: 2px;
+   line-height: 1.1;
  }
 p {
    text-align: center;
    font-size: 18px;  /*18px/16=1.125em*/
-   line-height: 1.4px;
    font-weight: 300;
-   line-height: 25px;
 }
 
 /* GRID */
@@ -123,9 +122,10 @@ header .container {
 }
 .containerhero p {
 	font-size: 1.125em;  /*18px/16=1.125em*/
-	line-height: 200%
 	color: #262f39;
 	text-shadow: 0 0 20px white, 0 0 40px white, 0 0 60px white;
+	max-width: 550px;
+	text-align: center;
 }
 
 /* services styling */
@@ -133,21 +133,84 @@ header .container {
 	font-size: 1.4em;   /*24px/16=1.5em*/
 	line-height: .8;
 }
+<style>
+.services {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
 
+.service-wrapper {
+    max-width: 250px;
+    margin: 20px auto;
+}
 
+.service {
+    position: relative;
+    padding-bottom: 100%;
+    border-radius: 50%;
+}
+
+.service.orange {
+    box-shadow: 0 0 0 5px #d15a14;
+}
+
+.service.blue {
+    box-shadow: 0 0 0 5px #0c4573;
+}
+
+.service.green {
+    box-shadow: 0 0 0 5px #69c6cd;
+}
+
+.service-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    text-align: center;
+}
+</style>
 /* linguist styling */
 .linguist {
 	background: #a7dde4;
 	background-size: cover;
 	text-align: center;
 	padding: 4em 0;
+	
 }
 .linguist h2 {
 	color: #d15a14;
 }
+.linguist p {
+	max-width: 550px;
+	text-align: center;
+}
+
 
 
 /* projects styling */
+.projects {
+	padding: 4em 0;
+}
 .projects h2 {
 	color: #d15a14;
 }
@@ -155,6 +218,10 @@ header .container {
 	color: #262f39;
 	margin-top: 50px;
 	margin-bottom: 20px;
+}
+.projects p {
+	max-width: 550px;
+	text-align: center;
 }
 .projects p.chgfont {
 	font-size: 1em;   /*16px/16=1em*/
