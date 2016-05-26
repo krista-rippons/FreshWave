@@ -204,9 +204,9 @@ header /*.container*/ {
 
 /* linguist styling */
 
-.linguist {
+.linguist .container {
 	background: #a7dde4;
-	background-size: cover;
+	background-size: 100%;
 	text-align: center;
 	padding: 4em 0;
 }
