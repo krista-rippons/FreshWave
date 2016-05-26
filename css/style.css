@@ -41,7 +41,7 @@ p {
 /* GRID */
 
 .container {
-	width: 100%;
+	width: 100%; 
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
@@ -95,21 +95,23 @@ header nav ul > li > a {
 
 header .container {
 	background: #0c4573;
-	background-size: cover;
+	background-size: 100%;
 	padding: 1em 0;
-}
-header .container {
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
 	padding-left: 0px;
 	padding-right: 0px;
 	position: relative;
+}
+.headertext {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .containerhero {
 	background: url("../images/waves.png") top center no-repeat;
 	background-size: cover;
 	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 	padding: 4em 0;
 
 /* blur over waves doesn't work like this!
@@ -126,13 +128,22 @@ header .container {
 	text-shadow: 0 0 20px white, 0 0 40px white, 0 0 60px white;
 	max-width: 550px;
 	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /* services styling */
+.containerservices {
+	max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .service-text p {
 	font-size: 1.4em;   /*24px/16=1.5em*/
 	line-height: .8;
 }
+        
+/* Morgan help with service circles V2 */
 <style>
 .services {
     max-width: 768px;
@@ -189,13 +200,14 @@ header .container {
     text-align: center;
 }
 </style>
+
 /* linguist styling */
+
 .linguist {
 	background: #a7dde4;
 	background-size: cover;
 	text-align: center;
 	padding: 4em 0;
-	
 }
 .linguist h2 {
 	color: #d15a14;
@@ -203,6 +215,8 @@ header .container {
 .linguist p {
 	max-width: 550px;
 	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 
@@ -222,6 +236,8 @@ header .container {
 .projects p {
 	max-width: 550px;
 	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 .projects p.chgfont {
 	font-size: 1em;   /*16px/16=1em*/
