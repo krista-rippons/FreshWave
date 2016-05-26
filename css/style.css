@@ -206,7 +206,7 @@ header /*.container*/ {
 
 .linguist {
 	background: #a7dde4;
-	background-size: 100%;
+	background-size: cover;
 	text-align: center;
 	padding: 4em 0;
 }
