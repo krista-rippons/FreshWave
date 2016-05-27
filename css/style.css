@@ -204,11 +204,17 @@ header /*.container*/ {
 
 /* linguist styling */
 
-.linguist .container {
+/*.linguist {
 	background: #a7dde4;
 	background-size: 100%;
 	text-align: center;
 	padding: 4em 0;
+}*/
+.linguist .container {
+	width: 100%;
+	background: #a7dde4;
+	background-size: cover;
+	text-align: center;
 }
 .linguist h2 {
 	color: #d15a14;
@@ -219,8 +225,6 @@ header /*.container*/ {
 	margin-right: auto;
 	margin-left: auto;
 }
-
-
 
 /* projects styling */
 .projects {
