@@ -135,7 +135,7 @@ header /*.container*/ {
 
 /* services styling */
 .containerservices {
-	max-width: 700px;
+	max-width: 850px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -150,7 +150,7 @@ header /*.container*/ {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 5px;
 }
 
 .service-wrapper {
