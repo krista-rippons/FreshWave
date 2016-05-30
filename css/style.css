@@ -145,7 +145,7 @@ header /*.container*/ {
 }
         
 /* Morgan help with service circles V2 */
-<style>
+
 .services {
     max-width: 768px;
     margin-left: auto;
@@ -200,21 +200,15 @@ header /*.container*/ {
     justify-content: center;
     text-align: center;
 }
-</style>
+
 
 /* linguist styling */
 
-/*.linguist {
+.linguist {
 	background: #a7dde4;
 	background-size: 100%;
 	text-align: center;
 	padding: 4em 0;
-}*/
-.linguist .container {
-	width: 100%;
-	background: #a7dde4;
-	background-size: cover;
-	text-align: center;
 }
 .linguist h2 {
 	color: #d15a14;
